@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page is all about HTML select box,checked box concept">
+    <meta name="keywords" content="HTML, checkbox, select">
+    <title>HTML Selection Tag</title>
+    <style>
+        body{
+            background-color: powderblue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Value of tag can be same,there is no issue but name of each individual tag must be unique -->
+    <select>
+        <optgroup label="Car">
+            <option value="c">Audi</option>
+
+            <!-- usually browser ignore extra space and new line character -->
+
+            <option value="c">BMW</option>
+
+            <option value="c" selected>TATA</option>
+
+            <option value="c">Tesla</option>
+        </optgroup>
+
+        <optgroup label="Sports">
+            <option value="c">Cricket</option>
+            <option value="c">Football</option>
+            <option value="c">High Jump</option>
+
+        </optgroup>
+
+    </select>
+    <br><br>
+    
+    <input type="checkbox" name="ch" id="dev1" value="d1"> <label for="dev1">Web developer</label><br><br>
+   
+    <input type="checkbox" name="ch" id="dev2" value="d2"> <label for="dev2">Android developerr</label><br><br>
+   
+    <input type="checkbox" name="ch" id="dev3" value="d3" checked> <label for="dev3">ML Engineer</label><br><br>
+
+</body>
+
+</html>
